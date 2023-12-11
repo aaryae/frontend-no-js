@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:antiquewhite;
+    height:100vh;
+    max-width:1200px;
+}
+.btn{
+    border:1px solid rgb(160, 50, 50);
+    color:rgb(160, 50, 50);
+
+
+
+
+}

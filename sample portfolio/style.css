@@ -1,0 +1,111 @@
+*{
+    font-family: 'Anton', sans-serif;
+/* font-family: 'Baloo 2', cursive; */
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  
+    
+}
+.navbg{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+
+}
+
+.first{
+    display:flex;
+   
+}
+.first  h1{
+    font-size:6rem;
+}
+.first h4{
+    font-size:3rem;
+    margin: 63px 0px 0px 40px;
+}
+.second{
+    font-size:6rem;
+    
+}
+
+/* second part  */
+
+.bgtext{
+    font-size:6rem;
+    background:black;
+    color:white;
+    display:flex;
+    justify-content: center;
+
+}
+
+.work{
+    
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    grid-gap:50px;
+   
+  
+  
+   margin-top:100px;
+    
+   
+}
+.flexitem{
+    display:flex;
+    justify-content: center;
+}
+img{
+     width:100%;
+}
+.image-content{
+    border:1px solid rgb(172, 172, 172);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    width:320px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background:white;    
+    
+    
+}
+.image-content:hover{
+    box-shadow:none;
+
+}
+.intro{
+   
+margin-top:170px;
+    display:flex;
+    justify-content:center;
+}
+.aboutme{
+    background-color:black;
+    color:pink;
+
+}
+.aboutme h3{
+    letter-spacing: 0.1rem;
+
+}
+.services{
+    background-color:pink;
+    color:black;
+}
+.services h3{
+    letter-spacing: 0.1rem;
+
+}
+footer{
+    display:flex;
+    justify-content:center;
+    font-size:3rem;
+    color:rgb(212, 212, 212);
+    background:rgb(70, 70, 70);
+}

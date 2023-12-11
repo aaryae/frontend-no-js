@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2&family=Indie+Flower&family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.i {
+    color: rgb(14, 52, 122);
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.lists {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.lists a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.lists a:hover {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-radius: 50%;
+}
+
+/* section starts */
+
+.background {
+    max-width: 1300px;
+    /* font-family: 'Baloo 2', cursive; */
+    font-family: 'Indie Flower', cursive;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 70px;
+
+}
+
+.backgroundcontents {
+    display: flex;
+
+
+}
+
+.bgcontent {
+    position: relative;
+}
+
+.bgcontent h2 {
+
+    font-size: 3rem;
+    line-height: 55px;
+}
+
+.bgcontent h4 {
+    font-size: 1.7rem;
+
+
+}
+
+.bgcontent h4 .i {
+    text-decoration: underline;
+}
+
+.upload {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 4px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.upload img {
+    height: 20px;
+
+}
+
+.upload:hover {
+    font-weight: bold;
+    background: rgb(219, 219, 219);
+    transition: 0.2s ease-in-out;
+}
+
+.watch {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 4px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.watch:hover {
+    font-weight: bold;
+    background: rgb(219, 219, 219);
+    transition: 0.2s ease-in-out;
+}
+
+.imagebg {
+    width: 100%;
+    margin-left: 80px;
+}
+
+.imagebg img {
+    width: 80%;
+}
+
+/* afterbackground */
+
+.sectionpart{
+    height:100vh;
+}
+
+hr {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.servicetag {
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.midimagecontent {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+
+
+}
+
+.midimage img {
+    width: 100%;
+}
+
+.midcontent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.midcontent1,
+.midcontent2,
+.midcontent3,
+.midcontent4 {
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.midcontent1 h3,
+.midcontent2 h3,
+.midcontent3 h3,
+.midcontent4 h3 {
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.more {
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+
+}
+
+.more:hover {
+    font-weight: bold;
+}
+
+/* purchase st */
+.purchase {
+    height: 100vh;
+    background-color: rgb(236, 236, 236);
+}
+
+.mainpurchasecontent {
+    /* background-color: rgb(236, 236, 236); */
+}
+
+.purchasecontent {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: 'baloo-2', cursive;
+    margin-bottom:100px;
+    
+
+}
+
+.purchasecontent .pc1 {
+    font-size: 1.4rem;
+
+}
+
+.purchaseplan {
+    background-color: rgb(236, 236, 236);
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.pp1,
+.pp2,
+.pp3 {
+    
+   
+    width: 250px;
+    color: black;
+    background:white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:7px;
+    
+}
+.pp1{
+    background-color:rgba(0, 0, 0, 0.849);
+    color:white;
+}
+
+.pp1 h4,
+.pp2 h4,
+.pp3 h4 {
+    font-size: 1.4rem;
+
+}
+
+.pp1 h4,
+.pp3 h4 {
+    margin-bottom: 117px;
+}
+
+.disc {
+    color: rgb(207, 207, 207);
+    background-color: rgb(104, 0, 0);
+    padding: 2px;
+    border: none;
+}
+
+.pp1 h1,
+.pp2 h1,
+.pp3 h1 {
+    font-size: 2.7rem;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.purchaseupload,
+.purchaseanually,
+.purchasemonthly {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(3, 77, 3);
+    color: rgb(185, 185, 185);
+    margin-bottom: 40px;
+}
+.purchaseupload:hover,
+.purchaseanually:hover,
+.purchasemonthly:hover{
+    color:white;
+    
+}
+
+.pp1 p,
+.pp2 p,
+.pp3 p {
+
+}
+/* aboutus */
+.aboutus{
+    height:100vh;
+    
+}
+.aboutus h4{
+    font-size:2rem;
+    margin-bottom:30px;
+    max-width:1200px;
+    margin:0 auto;
+
+}
+.aboutus p{
+    font-size:1.2rem;
+    max-width:1200px;
+    margin:0 auto;
+}
